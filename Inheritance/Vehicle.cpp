@@ -2,6 +2,7 @@
 #include "Vehicle.h"
 using namespace std;
 
+// Default constructor
 Vehicle::Vehicle() {
 	manufacturer = "";
 	yearBuilt = 0;

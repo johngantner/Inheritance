@@ -2,6 +2,7 @@
 #include "Car.h"
 using namespace std;
 
+// Default constructor
 Car::Car():Vehicle()
 {
 	numOfDoors = 0;

@@ -2,6 +2,7 @@
 #include "Truck.h"
 using namespace std;
 
+// Default constructor
 Truck::Truck():Vehicle() {
 	 towingCapacity = 0;
 }
