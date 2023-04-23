@@ -6,8 +6,8 @@ Truck::Truck():Vehicle() {
 	 towingCapacity = 0;
 }
 
-Truck::Truck(string manu, int year, int towing) :
-	Vehicle(manu, year)
+Truck::Truck(string man, int year, int towing) :
+	Vehicle(man, year)
 {
 	towingCapacity = towing;
 }

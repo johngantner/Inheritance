@@ -7,9 +7,9 @@ Vehicle::Vehicle() {
 	yearBuilt = 0;
 }
 
-Vehicle::Vehicle(string manu, int year)
+Vehicle::Vehicle(string man, int year)
 {
-	manufacturer = manu;
+	manufacturer = man;
 	yearBuilt = year;
 }
 

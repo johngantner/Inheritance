@@ -1,6 +1,6 @@
 // John Gantner
 // C++ Software Development 
-// 4/18/2023
+// 4/23/2023
 
 #include <iostream>
 #include <string>
@@ -15,7 +15,7 @@ int main()
 	string vehicleManu, carManu, truckManu = "";
 	int vehicleYear, carYear, truckYear, carDoors, towingCapacity = 0;
 
-	cout << "Vehicle Program\n" << endl;
+	cout << "Vehicle Program\n" << endl; 
 
 	// Getting and displaying vehicle information
 	cout << "Vehicle: " << endl;
