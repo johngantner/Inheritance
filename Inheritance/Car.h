@@ -6,6 +6,7 @@ using namespace std;
 
 class Car : public Vehicle
 {
+	// Memeber variables
 private:
 	int numOfDoors;
 public:

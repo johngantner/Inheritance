@@ -7,12 +7,14 @@ Vehicle::Vehicle() {
 	yearBuilt = 0;
 }
 
+// Constructor
 Vehicle::Vehicle(string man, int year)
 {
 	manufacturer = man;
 	yearBuilt = year;
 }
 
+// Getters and setters
 string Vehicle::getManufacturer() const
 {
 	return manufacturer;
@@ -33,6 +35,7 @@ void Vehicle::setYearBuilt(int year)
 	yearBuilt = year;
 }
 
+// Displaying the info
 void Vehicle::displayInfo() const
 {
 	cout << "Manufacturer: " << manufacturer << endl
