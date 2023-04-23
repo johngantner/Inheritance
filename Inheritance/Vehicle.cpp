@@ -18,9 +18,9 @@ string Vehicle::getManufacturer() const
 	return manufacturer;
 }
 
-void Vehicle::setManufacturer(string manu)
+void Vehicle::setManufacturer(string man)
 {
-	manufacturer = manu;
+	manufacturer = man;
 }
 
 int Vehicle::getYearBuilt() const

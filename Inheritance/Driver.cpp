@@ -20,7 +20,8 @@ int main()
 	// Getting and displaying vehicle information
 	cout << "Vehicle: " << endl;
 	cout << "Enter the manufacturer: ";
-	cin >> vehicleManu;
+	cin.ignore();
+	getline(cin, vehicleManu);
 	cout << "Enter the year built: ";
 	cin >> vehicleYear;
 	cout << "Vehicle Information: " << endl;
@@ -30,7 +31,8 @@ int main()
 	// Getting and displaying the car information
 	cout << endl << "Car: " << endl;
 	cout << "Enter the manufacturer: ";
-	cin >> carManu;
+	cin.ignore();
+	getline(cin, carManu);
 	cout << "Enter the year built: ";
 	cin >> carYear;
 	cout << "Enter the number of doors: ";
@@ -42,7 +44,8 @@ int main()
 	// Getting and displaying the truck information
 	cout << endl << "Truck: " << endl;
 	cout << "Enter the manufacturer: ";
-	cin >> truckManu;
+	cin.ignore();
+	getline(cin, truckManu);
 	cout << "Enter the year built: ";
 	cin >> truckYear;
 	cout << "Enter the towing capacity: ";
