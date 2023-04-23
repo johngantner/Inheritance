@@ -15,7 +15,7 @@ int main()
 	string vehicleManu, carManu, truckManu = "";
 	int vehicleYear, carYear, truckYear, carDoors, towingCapacity = 0;
 
-	cout << "Vehicle Program" << endl << endl;
+	cout << "Vehicle Program\n" << endl;
 
 	// Getting and displaying vehicle information
 	cout << "Vehicle: " << endl;
